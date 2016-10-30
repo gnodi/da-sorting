@@ -1,2 +1,4 @@
-# da-sorting
+da-sorting
+==========
+
 JavaScript/Node.js package about sorting

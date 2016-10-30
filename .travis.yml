@@ -1,0 +1,11 @@
+sudo: false
+language: node_js
+node_js:
+  - '6.0'
+  - 'node'
+script: 'npm test'
+addons:
+  sauce_connect:
+    username: gnucki
+  jwt:
+    secure: wDvlcToStjkn/6MxHdWPHuXmYic3v55i0agOgKN4dx/zzB+UzpWChv50hDHMzfh+4ZBS4qKgXbEu5WWzrHEbUDoFuh1KSu/bsfOfYyqPsrGVgiY7/gEhfpbhtZI8bR1g/X8fS05dGUhXLhvolysUpKHW26s/NSB79OF8lIGOGEi6WEM/K4rovas7xQzWV63jW8ZntuNDve5HU+Jn76tCDneanoR1YOd3ZtbuBfrYWaLNeH0OuWadNQgfyYt4VahmiDowotVZEPZzeraGol6VfKSbdF6eR+wiOQqE3W7ren3a8dj0YdWfmwewtDRKeLuHdtEQcvQaGMr34wAap8xKB0YlER7GbFS0b/AmOvWqh2iT7uTgL2fVzTgQECM2+neqmMYNteNLtjZH9kjniXQvg24SozujP28/li1vecKedpJWA1N/WsEqJGsyav3RiP3YHHFvsWf2+TSPCb//frFH7zd/ldpE0q+IOBRJHasuLvb9TzRTxuPzLNUSkHWu5ZRN369Iv3RuCTqzTuF7Sy4Efs9UWfu5WDPc5/HUyM/qq6BsYgDI9E9c4TAINQciIN0g8L+cJ8TvOTDUcyt1j35ZWMgY9CWpK450wvQgsJx9LFxGaC3Kpydx1zLRxI2Id3AnxIUcTzs9Uo8oaWgLNWLxCaTO5uWb79cJrpzgdhQv0go=
