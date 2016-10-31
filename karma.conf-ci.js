@@ -19,7 +19,7 @@ module.exports = function(config) {
       base: 'SauceLabs',
       browserName: 'chrome',
       version: '54'
-    },
+    }/*,
     sl_ie_10: {
       base: 'SauceLabs',
       browserName: 'internet explorer',
@@ -39,7 +39,7 @@ module.exports = function(config) {
       base: 'SauceLabs',
       browserName: 'Safari',
       version: '10'
-    }
+    }*/
   };
 
   config.set({
