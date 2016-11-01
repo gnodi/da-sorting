@@ -1,8 +1,8 @@
 sudo: false
 language: node_js
 node_js:
-- '6.0'
-- node
+  - '6.0'
+  - node
 script: npm test
 addons:
   sauce_connect:
