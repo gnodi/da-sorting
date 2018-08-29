@@ -9,7 +9,7 @@
     "sorting"
   ],
   "dependencies": {
-    "eslint-config-standard": "^6.2.0"
+    "eslint-config-standard": "^12.0.0"
   },
   "devDependencies": {
     "browserify": "^13.1.1",
